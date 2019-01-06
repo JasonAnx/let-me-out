@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Cuál es?!</title>
+
+		<!--Import Google Icon Font-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--Import materialize.css-->
+		<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+		<link type="text/css" rel="stylesheet" href="style.css" media="screen,projection" />
+
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+
+	<body class="grey lighten-4">
+		<div id="fb-root"></div>
+
+		<!--NAVBAR -->
+		<div class="navbar-fixed">
+			<nav>
+				<div class="nav-wrapper">
+					<a href="#" class="brand-logo center">Cual es?</a>
+					<ul id="nav-mobile" class="left hide-on-med-and-down">
+						<!--<li><a href="sass.html">Sass</a></li>
+				<li><a href="badges.html">Components</a></li>
+				<li><a href="collapsible.html">JavaScript</a></li>-->
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+		<div class="scroll4 screen">
+			<!-- Page Content goes here -->
+			<div class="container">
+
+				<!--<h2>Cuál es?!</h2>-->
+				<p class="flow-text" id="">
+					Actividades para realizar hoy en San Jose, Costa Rica
+				</p>
+
+				<!--Cards-->
+				<h4 id="day">
+					Eventos para hoy
+				</h4>
+
+				<!-- JS deactivated warning -->
+				<div id="jsinfo" class="card-panel  hoverable activator waves-effect waves-block waves">
+					<p class="flow-text">
+						Este sitio requiere Javascript para funcionar, específicamente para conectarse con Facebook Events. Asegurate de que
+					</p>
+					<ul class="flow-text browser-default">
+						<li> Javascript está habilitado,</li>
+						<li> no tengas activa ninguna extensión que bloquee la conexión hacia facebook.</li>
+					</ul>
+				</div>
+
+				<div class="row">
+					<div class="col s12 m6" id="cardcontizq">
+					</div>
+					<div class="col s12 m6" id="cardcontder">
+					</div>
+				</div>
+
+
+				<!--Next Events-->
+				<h4> Proximos Eventos </h4>
+
+				<div class="row">
+					<div class="col s12 m2" id="">
+					</div>
+					<div class="col s12 m4" id="cardcontizqOTHER">
+					</div>
+					<div class="col s12 m4" id="cardcontderOTHER">
+					</div>
+					<div class="col s12 m2" id="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="index.js"></script>
+
+	</body>
+
+
+</html>
